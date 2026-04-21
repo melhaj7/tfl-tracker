@@ -34,5 +34,5 @@ def fetch_disruptions(app_key, line_id):
 def fetch_stop_points(app_key, line_id):
     return _make_request(f"/Line/{line_id}/StopPoints", app_key)
 
-def fetch_timetable(app_key, line_id, stop_naptan_id):
-    return _make_request(f"/Line/{line_id}/Timetable/{stop_naptan_id}", app_key)
+def fetch_timetable(app_key, line_id, stop_naptan_id, direction):
+    return _make_request(f"/Line/{line_id}/Timetable/{stop_naptan_id}", app_key, {"direction": direction})
