@@ -11,3 +11,6 @@ SILVER_ARRIVALS    = "tfl_pipeline.silver.tfl_arrivals"
 SILVER_DISRUPTIONS = "tfl_pipeline.silver.tfl_disruptions"
 SILVER_STOP_POINTS = "tfl_pipeline.silver.tfl_stop_points"
 SILVER_TIMETABLES  = "tfl_pipeline.silver.tfl_timetables"
+
+# Gold table name
+GOLD_NETWORK_SNAPSHOT_SUMMARY = "tfl_pipeline.gold.network_snapshot_summary"
